@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Story-Studios</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Story-Studios</h1>
+    </header>
+    <main>
+      <form id="avatar-generator">
+        <h2>Generate Your Avatar</h2>
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <select id="age" name="age">
+            <option value="young">Young</option>
+            <option value="middle-aged">Middle Aged</option>
+            <option value="elderly">Elderly</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="voice-tone">Voice Tone:</label>
+          <select id="voice-tone" name="voice-tone">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="story-telling">Story Telling:</label>
+          <select id="story-telling" name="story-telling">
+            <option value="normal">Normal</option>
+            <option value="lively">Lively</option>
+            <option value="double-expresso">Double Expresso</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="theme">Theme:</label>
+          <select id="theme" name="theme">
+            <option value="funny">Funny</option>
+            <option value="strange">Strange</option>
+            <option value="insane">Insane</option>
+            <option value="scary">Scary</option>
+            <option value="story">Story</option>
+          </select>
+        </div>
+        <button type="submit">Generate Avatar</button>
+      </form>
+    </main>
+  </body>
+</html>
